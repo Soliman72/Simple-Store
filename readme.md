@@ -51,3 +51,26 @@ Simple-Store/
 4- and run the project
 
     `npm run dev`
+
+## Components 
+
+### Products.vue
+
+    Displays the list of products in a table format.
+    Provides pagination for navigating through pages of products.
+    Includes buttons for adding, editing, and deleting products.
+
+### AddProduct.vue
+
+    Form for adding a new product.
+    Submits the new product to the Fake Store API.
+
+### EditProduct.vue
+
+    Form for editing an existing product.
+    Loads the product data into the form fields.
+    Submits the updated product data to the Fake Store API.
+
+### API
+    
+    This project uses the Fake Store API to fetch product data.
